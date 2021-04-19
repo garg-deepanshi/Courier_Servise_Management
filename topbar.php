@@ -36,6 +36,7 @@
       </li>
     </ul>
   </nav>
+
   <!-- /.navbar -->
   <script>
      $('#manage_account').click(function(){
