@@ -99,7 +99,6 @@
           reader.onload = function (e) {
             $('#cover').attr('src', e.target.result);
           }
-
           reader.readAsDataURL(input.files[0]);
       }
   }
