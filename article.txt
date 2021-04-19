@@ -41,9 +41,3 @@ Open a web browser and browse the project. E.g [http://localhost/courier-managem
 ​​​​​​​Default Admin Access
 Username: admin@admin.com
 Password: admin123
-
-I hope this simple Courier Management System will help you with what you are looking for, feel free to download and modify the source code.
-
-Explore more on this website for more source codes and tutorials.
-
-Enjoy!
