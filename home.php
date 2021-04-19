@@ -62,7 +62,6 @@ if($_SESSION['login_type'] != 1)
           </div>
             <?php endforeach; ?>
       </div>
-
 <?php else: ?>
 	 <div class="col-12">
           <div class="card">
