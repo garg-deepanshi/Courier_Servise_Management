@@ -29,7 +29,7 @@
         <div class="row">
           <div class="col-md-6">
             <div class="form-group">
-              <label for="" class="control-label">Address</label>
+              <label for="" class="control-label">Address </label>
               <textarea name="address" id="" cols="30" rows="3" class="form-control"><?php echo isset($_SESSION['system']['address']) ? $_SESSION['system']['address'] : '' ?></textarea>
             </div>
           </div>
