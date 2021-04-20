@@ -58,7 +58,7 @@
 			uni_modal("Manage class","manage_class.php?id="+$(this).attr('data-id'))
 		})
 	$('.delete_class').click(function(){
-	_conf("Are you sure , you wanna delete this class?","delete_class",[$(this).attr('data-id')])
+	_conf("Are you sure to delete this class?","delete_class",[$(this).attr('data-id')])
 	})
 	})
 	function delete_class($id){
@@ -79,3 +79,4 @@
 		})
 	}
 </script>
+# Class.php Complete
