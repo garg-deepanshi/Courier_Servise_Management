@@ -6,3 +6,4 @@ foreach($qry as $k => $v){
 }
 include 'new_parcel.php';
 ?>
+# for parcel selection code
