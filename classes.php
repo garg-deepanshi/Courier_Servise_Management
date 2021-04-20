@@ -29,7 +29,7 @@
 					?>
 					<tr>
 						<th class="text-center"><?php echo $i++ ?></th>
-						<td><b><?php echo $row['level'] ?></b></td>
+						<td><b><?php echo $row['level']?></b></td>
 						<td><b><?php echo $row['section'] ?></b></td>
 						<td class="text-center">
 		                    <div class="btn-group">
