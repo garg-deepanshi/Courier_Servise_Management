@@ -24,5 +24,5 @@ while($row = $parcels->fetch_assoc()):
 		<td width="33.33%"></td>
 	</tr>
 </table>
-<?php endwhile; ?>
+<?php endwhile; ?> 
 
