@@ -1,4 +1,4 @@
-//view user php page
+<!-- view user php page -->
 
 <?php include 'db_connect.php' ?>
 <?php
