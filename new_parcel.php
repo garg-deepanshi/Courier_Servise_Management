@@ -1,7 +1,7 @@
 <?php if(!isset($conn)){ include 'db_connect.php'; } ?>
 <style>
   textarea{
-    resize: none;
+    resize:  none;
   }
 </style>
 <div class="col-lg-12">
