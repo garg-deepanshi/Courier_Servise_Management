@@ -14,6 +14,7 @@ Class Action {
 	    $this->db->close();
 	    ob_end_flush();
 	}
+	// login fuction
 
 	function login(){
 		extract($_POST);
@@ -28,6 +29,7 @@ Class Action {
 			return 2;
 		}
 	} 
+	// logout function
 	function logout(){
 		session_destroy();
 		foreach ($_SESSION as $key => $value) {
@@ -48,6 +50,7 @@ Class Action {
 			return 3;
 		}
 	}
+	//user-save fuction
 	function save_user(){
 		extract($_POST);
 		$data = "";
@@ -79,6 +82,7 @@ Class Action {
 			return 1;
 		}
 	}
+	//signup function
 	function signup(){
 		extract($_POST);
 		$data = "";
