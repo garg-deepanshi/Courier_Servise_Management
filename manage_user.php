@@ -35,7 +35,7 @@ foreach($user->fetch_array() as $k =>$v){
 	</form>
 </div>
 <style>
-	img#cimg{
+	img#cimg{ 
 		max-height: 15vh;
 		/*max-width: 6vw;*/
 	}
