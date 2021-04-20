@@ -17,7 +17,7 @@
 						<th>City/State/Zip</th>
 						<th>Country</th>
 						<th>Contact #</th>
-						<th>Action</th>
+						<th>Action </th>
 					</tr>
 				</thead>
 				<tbody>
