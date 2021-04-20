@@ -1,6 +1,6 @@
 # Courier Servise Management
 
-contents
+# Contents
 
 1-Introduction
 
@@ -16,6 +16,7 @@ The system has 2 types of user which is the Admin user and the Branch Staff user
 
 # Tecnical details
 IDE used:Netbeans
+
 Xampp Server
 
 # Links
