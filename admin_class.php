@@ -354,6 +354,7 @@ Class Action {
 			return json_encode($data);
 		}
 	}
+	//get report function
 	function get_report(){
 		extract($_POST);
 		$data = array();
