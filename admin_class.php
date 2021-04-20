@@ -27,7 +27,7 @@ Class Action {
 		}else{
 			return 2;
 		}
-	}
+	} 
 	function logout(){
 		session_destroy();
 		foreach ($_SESSION as $key => $value) {
