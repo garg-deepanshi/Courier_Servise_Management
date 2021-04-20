@@ -131,6 +131,7 @@ Class Action {
 			return 1;
 		}
 	}
+	//update-user function
 
 	function update_user(){
 		extract($_POST);
@@ -173,12 +174,14 @@ Class Action {
 			return 1;
 		}
 	}
+	//delete-user function
 	function delete_user(){
 		extract($_POST);
 		$delete = $this->db->query("DELETE FROM users where id = ".$id);
 		if($delete)
 			return 1;
 	}
+	//save system settings function
 	function save_system_settings(){
 		extract($_POST);
 		$data = '';
