@@ -1,4 +1,4 @@
-<!-- SweetAlert2 -->
+<!-- Sweet Alert2 -->
 <script src="assets/plugins/sweetalert2/sweetalert2.min.js"></script>
 <!-- Toastr -->
 <script src="assets/plugins/toastr/toastr.min.js"></script>
@@ -6,7 +6,7 @@
 <script src="assets/plugins/bootstrap4-toggle/js/bootstrap4-toggle.min.js"></script>
 <!-- Select2 -->
 <script src="assets/plugins/select2/js/select2.full.min.js"></script>
-<!-- Summernote -->
+<!-- Summer note -->
 <script src="assets/plugins/summernote/summernote-bs4.min.js"></script>
 <!-- dropzonejs -->
 <script src="assets/plugins/dropzone/min/dropzone.min.js"></script>
