@@ -273,6 +273,7 @@ Class Action {
 			return 1;
 		}
 	}
+	//save parcel function
 	function save_parcel(){
 		extract($_POST);
 		foreach($price as $k => $v){
@@ -317,6 +318,7 @@ Class Action {
 			return 1;
 		}
 	}
+	//deleteparcel function
 	function delete_parcel(){
 		extract($_POST);
 		$delete = $this->db->query("DELETE FROM parcels where id = $id");
@@ -324,6 +326,7 @@ Class Action {
 			return 1;
 		}
 	}
+	//update parcel function
 	function update_parcel(){
 		extract($_POST);
 		$update = $this->db->query("UPDATE parcels set status= $status where id = $id");
@@ -331,6 +334,7 @@ Class Action {
 		if($update && $save)
 			return 1;  
 	}
+	//parcel history function
 	function get_parcel_heistory(){
 		extract($_POST);
 		$data = array();
