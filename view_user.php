@@ -1,3 +1,5 @@
+//view user php page
+
 <?php include 'db_connect.php' ?>
 <?php
 if(isset($_GET['id'])){
