@@ -218,6 +218,7 @@ Class Action {
 			return 1;
 		}
 	}
+	//save image function
 	function save_image(){
 		extract($_FILES['file']);
 		if(!empty($tmp_name)){
@@ -232,6 +233,7 @@ Class Action {
 			}
 		}
 	}
+	// save branch function 
 	function save_branch(){
 		extract($_POST);
 		$data = "";
@@ -263,6 +265,7 @@ Class Action {
 			return 1;
 		}
 	}
+	//delete branch function
 	function delete_branch(){
 		extract($_POST);
 		$delete = $this->db->query("DELETE FROM branches where id = $id");
