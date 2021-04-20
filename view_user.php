@@ -47,7 +47,7 @@ foreach($qry as $k => $v){
 	#uni_modal .modal-footer.display{
 		display: flex
 	}
-</style>
+</style> 
 
 
 
