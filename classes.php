@@ -79,4 +79,3 @@
 		})
 	}
 </script>
-# Class.php Complete
